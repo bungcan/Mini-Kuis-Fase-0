@@ -1,0 +1,130 @@
+body{
+    background-color: #053360;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+#container{
+    margin: 150px auto;
+    background-color: whitesmoke;
+    height: 300px;
+    width : 700px;
+}
+#start{
+    padding-top: 130px;
+    margin: auto;
+    font-size: 1.5em;
+    font-weight: bolder;
+    width:300px;
+    height:50px;
+
+    text-align: center;
+    cursor: pointer;
+    color : lightgrey;
+}
+
+#start p{
+    color: darkblue;
+    font-size: small;
+}
+
+#start:hover{
+    color : lightseagreen;
+}
+
+
+#question{
+    width:700px;
+    height : 150px;
+    right:0;
+    top:0;
+    text-align: center;
+}
+#question p{
+    margin : 0;
+    padding : 25px;
+    font-size: 1.25em;
+}
+
+#choices{
+    
+    width : 700px;
+    top : 125px;
+    padding-left: 150px;
+}
+
+.choice{
+    display: inline-block;
+    width : 200px;
+    text-align: center;
+    border : 1px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+    padding : 5px;
+}
+
+.choice:hover{
+    border : 2px solid grey;
+    font-weight: bold;
+}
+
+#timer{
+    position: absolute;
+    height : 100px;
+    width : 200px;
+    bottom : 0px;
+    text-align: center;
+}
+#counter{
+    font-size: 3em;
+}
+#btimeGauge{
+    width : 150px;
+    height : 10px;
+    border-radius: 10px;
+    background-color: lightgray;
+    margin-left : 25px;
+}
+#timeGauge{
+    height : 10px;
+    border-radius: 10px;
+    background-color: mediumseagreen;
+    margin-top : -10px;
+    margin-left : 25px;
+}
+#progress{
+    position: absolute;
+    width : 500px;
+    bottom : 0px;
+    right : 0px;
+    padding:10px;
+    text-align: center;
+}
+.prog{
+    width : 25px;
+    height : 25px;
+    border: 1px solid #000;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left : 5px;
+    margin-right : 5px;
+}
+#scoreContainer{
+    margin-top: 150px;
+    background-color: white;
+    height: 60px;
+    width : 700px;
+    border-radius: 5px;
+    position: relative;
+    display: none;
+}
+
+#scoreContainer p{
+    padding-top: 15px;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+}
